@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../../components/movie-card";
 
+import "../movies_grid.css"
+
 const MOVIES_URL = import.meta.env.VITE_API;
 const API_KEY = import.meta.env.VITE_API_KEY;
 
@@ -9,8 +11,8 @@ const Home = () => {
 
   const getTopRatedMovies = async (url) => {
     const res = await fetch(url);
-
     const data = await res.json();
+    
     setTopMovies(data.results);
   };
 

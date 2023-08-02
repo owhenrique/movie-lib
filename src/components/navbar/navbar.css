@@ -33,4 +33,10 @@
   padding: 0.3rem;
   font-size: 1.3rem;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+#nav form button:hover {
+  background-color: transparent;
+  color: #f7d354;
 }
