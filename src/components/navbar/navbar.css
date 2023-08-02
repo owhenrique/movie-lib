@@ -1,0 +1,36 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #121212;
+}
+
+#nav h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#nav form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#nav input {
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  border: none;
+}
+
+#nav form button {
+  background-color: #f7d354;
+  display: flex;
+  align-items: center;
+  border: 2px solid #f7d354;
+  border-radius: 2px;
+  color: black;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
